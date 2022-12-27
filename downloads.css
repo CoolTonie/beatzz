@@ -232,6 +232,9 @@ input::placeholder {
   /* border: 1px solid green; */
   border-top: none;
 }
+.tabcontent.show{
+  display:block;
+}
 .songs {
   /* justify-content: space-between; */
   color: var(--font);
@@ -321,8 +324,7 @@ input::placeholder {
   padding: 48px 42px 64px 42px;
   background-color: var(--card);
 }
-.foot-logo {
-}
+
 
 .logof {
   display: flex;
@@ -354,8 +356,7 @@ input::placeholder {
   cursor: pointer;
 }
 
-.useful {
-}
+
 .useful p {
   font-weight: 600;
   font-size: 20px;
@@ -584,7 +585,6 @@ input[type="range"] {
 input[type="range"]::-webkit-slider-runnable-track {
   width: 300px;
   height: 5px;
-  background: ;
   border: none;
   border-radius: 8px;
 }
